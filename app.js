@@ -1,6 +1,5 @@
 var buttons = document.querySelectorAll("div.num");
 var displayNumber = document.getElementById("numberOnDisplay");
-
 var resetButton = document.getElementById("reset");
 
 var addition = document.getElementById("addition")
@@ -177,12 +176,14 @@ function resolveMath() {
         mathStored = 0;
         mathType = ""
     } else if (mathType === "divide") {
+        
         ans = mathStored / parseFloat(displayNumber.innerText, 10);
         displayNumber.innerHTML = ans
         mathStored = 0;
         mathType = ""
     }
 
+    
 }
 
 equals.addEventListener("click", resolveMath);
