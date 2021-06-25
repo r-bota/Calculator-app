@@ -31,9 +31,11 @@ body {
 }
 
 .themetitle {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   align-self: center;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  margin-top: 14px;
+  margin-bottom: 0;
 }
 
 .slider {
@@ -41,8 +43,8 @@ body {
 }
 
 .themes {
-  font-size: 0.8rem;
-  letter-spacing: 6px;
+  font-size: 0.7rem;
+  letter-spacing: 7px;
   margin: 0;
   margin-left: 18px;
 }
@@ -241,6 +243,42 @@ body {
 }
 .del:hover {
   background-color: #637097;
+}
+
+@media only screen and (min-width: 1440px) {
+  .topwrap {
+    width: 450px;
+    padding-top: 100px;
+  }
+
+  .displayarea {
+    width: 510px;
+    font-size: 3rem;
+    padding-top: 8px;
+  }
+
+  .keys {
+    width: 470px;
+  }
+
+  .normalkeys {
+    grid-gap: 25px;
+    margin: 0;
+    margin-left: 12px;
+    margin-top: 9px;
+  }
+
+  .reset, .equals {
+    width: 212px;
+  }
+
+  .reset {
+    margin-left: 13px;
+  }
+
+  .button, .del {
+    width: 62px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
