@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="calc" id="calc">
+        <div class="topwrap" id="topw">
+            <h1 class="title">calc</h1>
+            <div class="wrap">
+                <h2 class="themetitle">THEME</h2>
+
+                <div class="slider">
+                    <p class="themes">1 2 3</p>
+                    <input type="range" min="1" max="3" value="1" class="themetoggle" id="themetoggle">
+                </div>
+            </div>
+        </div>
+
+        <div class="displayarea" id="darea">
+            <p class="number" id="numberOnDisplay">0</p>
+        </div>
+
+        <div class="keys" id="keyss">
+            <div class="normalkeys">
+                <div class="button num">7</div>
+                <div class="button num">8</div>
+                <div class="button num">9</div>
+                <div class="del" id="del">DEL</div>
+                <div class="button num">4</div>
+                <div class="button num">5</div>
+                <div class="button num">6</div>
+                <div class="button" id="addition">+</div>
+                <div class="button num">1</div>
+                <div class="button num">2</div>
+                <div class="button num">3</div>
+                <div class="button" id="subtraction">-</div>
+                <div class="button" id="period">.</div>
+                <div class="button num">0</div>
+                <div class="button" id="divide">/</div>
+                <div class="button" id="multiply">x</div>
+            </div>
+            <div class="bottomkeys">
+                <div class="reset" id="reset">RESET</div>
+                <div class="equals" id="equals">=</div>
+            </div>
+        </div>
+
+    </div>
+<script src="app.js"></script>
+</body>
+
+</html>

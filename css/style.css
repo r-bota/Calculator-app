@@ -1,0 +1,246 @@
+body {
+  font-family: "Spartan", sans-serif;
+  margin: 0;
+}
+
+.calc {
+  background-color: #3a4764;
+  height: 100vh;
+}
+
+.topwrap {
+  margin-bottom: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 300px;
+  margin: auto;
+}
+
+#topw {
+  color: white;
+}
+
+.wrap {
+  margin-right: 33px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.themetitle {
+  font-size: 0.8rem;
+  align-self: center;
+  letter-spacing: 3px;
+}
+
+.slider {
+  align-self: center;
+}
+
+.themes {
+  font-size: 0.8rem;
+  letter-spacing: 6px;
+  margin: 0;
+  margin-left: 18px;
+}
+
+.themetoggle {
+  margin-left: 12px;
+  -webkit-appearance: none;
+  width: 70px;
+  height: 25px;
+  background: #232c43;
+  border-radius: 20px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.themetoggle:hover {
+  opacity: 1;
+}
+
+.themetoggle::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #ca5502;
+  cursor: pointer;
+}
+
+.themetoggle::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ca5502;
+  cursor: pointer;
+}
+
+.themetoggle2 {
+  margin-left: 10px;
+  -webkit-appearance: none;
+  width: 70px;
+  height: 25px;
+  background: #d1cccc;
+  border-radius: 20px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.themetoggle2:hover {
+  opacity: 1;
+}
+
+.themetoggle2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #ca5502;
+  cursor: pointer;
+}
+
+.themetoggle2::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #ca5502;
+  cursor: pointer;
+}
+
+.themetoggle3 {
+  margin-left: 10px;
+  -webkit-appearance: none;
+  width: 70px;
+  height: 25px;
+  background: #1d0934;
+  border-radius: 20px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.themetoggle3:hover {
+  opacity: 1;
+}
+
+.themetoggle3::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #00e0d1;
+  cursor: pointer;
+}
+
+.themetoggle3::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #00e0d1;
+  cursor: pointer;
+}
+
+.displayarea {
+  background-color: #182034;
+  color: white;
+  font-size: 3rem;
+  width: 330px;
+  text-align: right;
+  margin: auto;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+.number {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.keys {
+  background-color: #232c43;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+.normalkeys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+  width: 300px;
+  margin: auto;
+}
+
+.bottomkeys {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;
+}
+
+.button, .del {
+  text-align: center;
+  background-color: #eae3dc;
+  box-shadow: 0px 4px #b4a597;
+  font-size: 1.8rem;
+  color: #444b5a;
+  width: 30px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.button:hover, .del:hover {
+  background-color: #f8f5f1;
+}
+
+.equals {
+  color: white;
+  border-radius: 5px;
+  width: 140px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #d03f2f;
+  box-shadow: 0px 4px #93261a;
+}
+
+.reset {
+  border-radius: 5px;
+  width: 140px;
+  margin-right: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+  background-color: #637097;
+  box-shadow: 0px 4px #404e72;
+}
+
+.del {
+  margin-right: 5px;
+  color: white;
+  padding-top: 22px;
+  padding-left: 8px;
+  padding-right: 25px;
+  font-size: 1.3rem;
+  background-color: #637097;
+  box-shadow: 0px 4px #404e72;
+}
+.del:hover {
+  background-color: #637097;
+}
+
+/*# sourceMappingURL=style.css.map */
