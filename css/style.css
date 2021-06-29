@@ -248,7 +248,7 @@ body {
 @media only screen and (min-width: 1440px) {
   .topwrap {
     width: 450px;
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .displayarea {
